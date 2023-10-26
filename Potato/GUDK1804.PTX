@@ -1,0 +1,323 @@
+*EXP.DETAILS: GUDK1804PT GENO AND PLANTING TIME (MEHWISH EVALUATION, 2018-19)
+
+*GENERAL
+@PEOPLE
+Muhammad Sohail Khan
+@ADDRESS
+Department of Horticulture, Gomal University, D.I.Khan
+@SITE
+D.I.Khan, Pakistan
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
+@NOTES
+Maturity date is taken from the actual date of harvest
+T1 = 156 DAP
+T2 = 150 DAP
+T3 = 140 DAP
+T4 = 127 DAP
+Weather file = My Field
+Used for model evaluation
+Initial conditions = 160001
+Emergence date = decreased one day than 2017 for all the genotypes
+MOST FINAL VERSION USED FOR MODEL EVALUATION!!!
+
+
+*TREATMENTS                        -------------FACTOR LEVELS------------
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 0 0 Elodie-P1                  1  1  0  2  1  1  1  0  0  2  0  1  2
+ 2 1 1 0 El Beida-P1                2  1  0  2  2  1  1  0  0  2  0  2  2
+ 3 1 1 0 Constance-P1               3  1  0  2  3  1  1  0  0  2  0  3  2
+ 4 1 1 0 Red Sun-P1                 4  1  0  2  4  1  1  0  0  2  0  4  2
+ 5 1 1 0 Red Valentine-P1           5  1  0  2  5  1  1  0  0  2  0  5  2
+ 6 1 1 0 Arizona-P1                 6  1  0  2  6  1  1  0  0  2  0  6  2
+ 7 1 1 0 Arsenal-P1                 7  1  0  2  7  1  1  0  0  2  0  7  2
+ 8 1 1 0 Rock-P1                    8  1  0  2  8  1  1  0  0  2  0  8  2
+ 9 1 1 0 Fado-P1                    9  1  0  2  9  1  1  0  0  2  0  9  2
+10 1 1 0 Sarpo Mira-P1             10  1  0  2 10  1  1  0  0  2  0 10  2
+11 1 1 0 Check-P1                  11  1  0  2 11  1  1  0  0  2  0 11  2
+12 1 1 0 Elodie-P2                  1  1  0  2 12  2  2  0  0  2  0 12  2
+13 1 1 0 El Beida-P2                2  1  0  2 13  2  2  0  0  2  0 13  2
+14 1 1 0 Constance-P2               3  1  0  2 14  2  2  0  0  2  0 14  2
+15 1 1 0 Red Sun-P2                 4  1  0  2 15  2  2  0  0  2  0 15  2
+16 1 1 0 Red Valentine-P2           5  1  0  2 16  2  2  0  0  2  0 16  2
+17 1 1 0 Arizona-P2                 6  1  0  2 17  2  2  0  0  2  0 17  2
+18 1 1 0 Arsenal-P2                 7  1  0  2 18  2  2  0  0  2  0 18  2
+19 1 1 0 Rock-P2                    8  1  0  2 19  2  2  0  0  2  0 19  2
+20 1 1 0 Fado-P2                    9  1  0  2 20  2  2  0  0  2  0 20  2
+21 1 1 0 Sarpo Mira-P2             10  1  0  2 21  2  2  0  0  2  0 21  2
+22 1 1 0 Check-P2                  11  1  0  2 22  2  2  0  0  2  0 22  2
+23 1 1 0 Elodie-P3                  1  1  0  2 23  3  3  0  0  2  0 23  2
+24 1 1 0 El Beida-P3                2  1  0  2 24  3  3  0  0  2  0 24  2
+25 1 1 0 Constance-P3               3  1  0  2 25  3  3  0  0  2  0 25  2
+26 1 1 0 Red Sun-P3                 4  1  0  2 26  3  3  0  0  2  0 26  2
+27 1 1 0 Red Valentine-P3           5  1  0  2 27  3  3  0  0  2  0 27  2
+28 1 1 0 Arizona-P3                 6  1  0  2 28  3  3  0  0  2  0 28  2
+29 1 1 0 Arsenal-P3                 7  1  0  2 29  3  3  0  0  2  0 29  2
+30 1 1 0 Rock-P3                    8  1  0  2 30  3  3  0  0  2  0 30  2
+31 1 1 0 Fado-P3                    9  1  0  2 31  3  3  0  0  2  0 31  2
+32 1 1 0 Sarpo Mira-P3             10  1  0  2 32  3  3  0  0  2  0 32  2
+33 1 1 0 Check-P3                  11  1  0  2 33  3  3  0  0  2  0 33  2
+34 1 1 0 Elodie-P4                  1  1  0  2 34  4  4  0  0  2  0 34  2
+35 1 1 0 El Beida-P4                2  1  0  2 35  4  4  0  0  2  0 35  2
+36 1 1 0 Constance-P4               3  1  0  2 36  4  4  0  0  2  0 36  2
+37 1 1 0 Red Sun-P4                 4  1  0  2 37  4  4  0  0  2  0 37  2
+38 1 1 0 Red Valentine-P4           5  1  0  2 38  4  4  0  0  2  0 38  2
+39 1 1 0 Arizona-P4                 6  1  0  2 39  4  4  0  0  2  0 39  2
+40 1 1 0 Arsenal-P4                 7  1  0  2 40  4  4  0  0  2  0 40  2
+41 1 1 0 Rock-P4                    8  1  0  2 41  4  4  0  0  2  0 41  2
+42 1 1 0 Fado-P4                    9  1  0  2 42  4  4  0  0  2  0 42  2
+43 1 1 0 Sarpo Mira-P4             10  1  0  2 43  4  4  0  0  2  0 43  2
+44 1 1 0 Check-P4                  11  1  0  2 44  4  4  0  0  2  0 44  2
+
+*CULTIVARS
+@C CR INGENO CNAME
+ 1 PT GU0001 ELodie
+ 2 PT GU0002 El Beida
+ 3 PT GU0003 Constance
+ 4 PT GU0004 Red Sun
+ 5 PT GU0005 Red Valentine
+ 6 PT GU0006 Arizona
+ 7 PT GU0007 Arsenal
+ 8 PT GU0008 Rock
+ 9 PT GU0009 Fado
+10 PT GU0010 Sarpo Mira
+11 PT GU0011 Check
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
+ 1 GUDK1804 GUDD       -99   -99 DR003   -99   -99   -99 L      -99  GUPK160001 D.I.Khan
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1             -99             -99       -99               -99   -99   -99   -99 FH201     1
+
+*SOIL ANALYSIS
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 1 17251   -99   -99   -99  -99
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 1    15   -99   -99   -99   -99   -99   -99   -99   -99
+
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 1    FA 18251   -99   -99     1     1   -99   -99   -99   -99   -99   -99 24 days before experiment start
+@C  ICBL  SH2O  SNH4  SNO3
+ 1     5  .174    .1    .8
+ 1    15  .184    .1    .8
+ 1    30  .199    .1    .8
+ 1    60  .214    .1    .8
+ 1   100  .213    .1    .8
+ 1   200  .202    .1    .8
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 2    FA 18261   -99   -99     1     1   -99   -99   -99   -99   -99   -99 14 days before experiment start
+@C  ICBL  SH2O  SNH4  SNO3
+ 2     5  .174    .1    .8
+ 2    15  .184    .1    .8
+ 2    30  .199    .1    .8
+ 2    60  .214    .1    .8
+ 2   100  .213    .1    .8
+ 2   200  .202    .1    .8
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 18275 18287  4.44  4.44     S     R    75     0    12   444   -99   -99   -99    .5                        Elodie-P1
+ 2 18275 18286  4.44  4.44     S     R    75     0    12   444   -99   -99   -99     1                        Elbeida-P1
+ 3 18275 18305  4.44  4.44     S     R    75     0    12   444   -99   -99   -99     1                        Constance-P1
+ 4 18275 18291  4.44  4.44     S     R    75     0    12   444   -99   -99   -99     1                        Red Sun-P1
+ 5 18275 18302  4.44  4.44     S     R    75     0    12   444   -99   -99   -99     1                        Red Valentine-P1
+ 6 18275 18293  4.44  4.44     S     R    75     0    12   444   -99   -99   -99     1                        Arizona-P1
+ 7 18275 18305  4.44  4.44     S     R    75     0    12   444   -99   -99   -99     1                        Arsenal-P1
+ 8 18275 18305  4.44  4.44     S     R    75     0    12   444   -99   -99   -99     1                        Rock-P1
+ 9 18275 18300  4.44  4.44     S     R    75     0    12   444   -99   -99   -99     1                        Fado-P1
+10 18275 18300  4.44  4.44     S     R    75     0    12   444   -99   -99   -99     1                        Sarpo Mira-P1
+11 18275 18309  4.44  4.44     S     R    75     0    12   444   -99   -99   -99     1                        Check-P1
+12 18287 18297  4.44  4.44     S     R    75     0    12   444   -99   -99   -99     1                        Elodie-P2
+13 18287 18297  4.44  4.44     S     R    75     0    12   444   -99   -99   -99     1                        Elbeida-P2
+14 18287 18314  4.44  4.44     S     R    75     0    12   444   -99   -99   -99    .5                        Constance-P2
+15 18287 18300  4.44  4.44     S     R    75     0    12   444   -99   -99   -99     1                        Red Sun-P2
+16 18287 18300  4.44  4.44     S     R    75     0    12   444   -99   -99   -99     1                        Red Valentine-P2
+17 18287 18299  4.44  4.44     S     R    75     0    12   444   -99   -99   -99     1                        Arizona-P2
+18 18287 18301  4.44  4.44     S     R    75     0    12   444   -99   -99   -99     1                        Arsenal-P2
+19 18287 18302  4.44  4.44     S     R    75     0    12   444   -99   -99   -99     1                        Rock-P2
+20 18287 18305  4.44  4.44     S     R    75     0    12   444   -99   -99   -99     1                        Fado-P2
+21 18287 18305  4.44  4.44     S     R    75     0    12   444   -99   -99   -99     1                        Sarpo Mira-P2
+22 18287 18308  4.44  4.44     S     R    75     0    12   444   -99   -99   -99     1                        Check-P2
+23 18299 18309  4.44  4.44     S     R    75     0    12   444   -99   -99   -99    .5                        Elodie-P3
+24 18299 18309  4.44  4.44     S     R    75     0    12   444   -99   -99   -99    .5                        Elbeida-P3
+25 18299 18326  4.44  4.44     S     R    75     0    12   444   -99   -99   -99    .5                        Constance-P3
+26 18299 18309  4.44  4.44     S     R    75     0    12   444   -99   -99   -99    .5                        Red Sun-P3
+27 18299 18311  4.44  4.44     S     R    75     0    12   444   -99   -99   -99    .5                        Red Valentine-P3
+28 18299 18310  4.44  4.44     S     R    75     0    12   444   -99   -99   -99    .5                        Arizona-P3
+29 18299 18312  4.44  4.44     S     R    75     0    12   444   -99   -99   -99    .5                        Arsenal-P3
+30 18299 18311  4.44  4.44     S     R    75     0    12   444   -99   -99   -99    .5                        Rock-P3
+31 18299 18317  4.44  4.44     S     R    75     0    12   444   -99   -99   -99    .5                        Fado-P3
+32 18299 18317  4.44  4.44     S     R    75     0    12   444   -99   -99   -99    .5                        Sarpo Mira-P3
+33 18299 18319  4.44  4.44     S     R    75     0    12   444   -99   -99   -99    .5                        Check-P3
+34 18311 18320  4.44  4.44     S     R    75     0    12   444   -99   -99   -99    .5                        Elodie-P4
+35 18311 18320  4.44  4.44     S     R    75     0    12   444   -99   -99   -99    .5                        Elbeida-P4
+36 18311 18325  4.44  4.44     S     R    75     0    12   444   -99   -99   -99    .5                        Constance-P4
+37 18311 18320  4.44  4.44     S     R    75     0    12   444   -99   -99   -99    .5                        Red Sun-P4
+38 18311 18322  4.44  4.44     S     R    75     0    12   444   -99   -99   -99    .5                        Red Valentine-P4
+39 18311 18322  4.44  4.44     S     R    75     0    12   444   -99   -99   -99    .5                        Arizona-P4
+40 18311 18323  4.44  4.44     S     R    75     0    12   444   -99   -99   -99    .5                        Arsenal-P4
+41 18311 18321  4.44  4.44     S     R    75     0    12   444   -99   -99   -99    .5                        Rock-P4
+42 18311 18320  4.44  4.44     S     R    75     0    12   444   -99   -99   -99    .5                        Fado-P4
+43 18311 18320  4.44  4.44     S     R    75     0    12   444   -99   -99   -99    .5                        Sarpo Mira-P4
+44 18311 18330  4.44  4.44     S     R    75     0    12   444   -99   -99   -99    .5                        Check-P4
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 1     1    30    50   100 GS000 IR001    10 P1
+@I IDATE  IROP IRVAL
+ 1 18275 IR001   150
+ 1 18283 IR001   100
+ 1 18287 IR001    40
+ 1 18299 IR001    40
+ 1 18311 IR001    40
+ 1 18326 IR001    40
+ 1 18334 IR001   150
+ 1 18346 IR001    18
+ 1 18353 IR001    40
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 2     1    30    50   100 GS000 IR001    10 P2
+@I IDATE  IROP IRVAL
+ 2 18275 IR001    40
+ 2 18283 IR001   100
+ 2 18287 IR001   150
+ 2 18299 IR001    40
+ 2 18311 IR001    40
+ 2 18326 IR001    40
+ 2 18334 IR001   150
+ 2 18346 IR001    18
+ 2 18353 IR001    40
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 3     1    30    50   100 GS000 IR001    10 P3
+@I IDATE  IROP IRVAL
+ 3 18275 IR001    40
+ 3 18283 IR001   100
+ 3 18287 IR001    40
+ 3 18299 IR001   150
+ 3 18311 IR001    40
+ 3 18326 IR001    40
+ 3 18334 IR001   150
+ 3 18346 IR001    18
+ 3 18353 IR001    40
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 4     1    30    50   100 GS000 IR001    10 P4
+@I IDATE  IROP IRVAL
+ 4 18275 IR001    40
+ 4 18283 IR001   100
+ 4 18287 IR001    40
+ 4 18299 IR001    40
+ 4 18311 IR001   150
+ 4 18326 IR001    40
+ 4 18334 IR001   150
+ 4 18346 IR001    18
+ 4 18353 IR001    40
+
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1 18275 FE018 AP004    15     0     0   100   -99   -99   -99 P1
+ 1 18275 FE013 AP004    15     0   100     0   -99   -99   -99 P1
+ 1 18275 FE005 AP004    15    50     0     0   -99   -99   -99 P1
+ 1 18305 FE005 AP004    15    50     0     0   -99   -99   -99 P1
+ 1 18325 FE005 AP004    15    50     0     0   -99   -99   -99 P1
+ 2 18287 FE018 AP004    15     0     0   100   -99   -99   -99 P2
+ 2 18287 FE013 AP004    15     0   100     0   -99   -99   -99 P2
+ 2 18287 FE005 AP004    15    50     0     0   -99   -99   -99 P2
+ 2 18317 FE005 AP004    15    50     0     0   -99   -99   -99 P2
+ 2 18337 FE005 AP004    15    50     0     0   -99   -99   -99 P2
+ 3 18299 FE018 AP004    15     0     0   100   -99   -99   -99 P3
+ 3 18299 FE013 AP004    15     0   100     0   -99   -99   -99 P3
+ 3 18299 FE005 AP004    15    50     0     0   -99   -99   -99 P3
+ 3 18329 FE005 AP004    15    50     0     0   -99   -99   -99 P3
+ 3 18349 FE005 AP004    15    50     0     0   -99   -99   -99 P3
+ 4 18311 FE018 AP004    15     0     0   100   -99   -99   -99 P4
+ 4 18311 FE013 AP004    15     0   100     0   -99   -99   -99 P4
+ 4 18311 FE005 AP004    15    50     0     0   -99   -99   -99 P4
+ 4 18341 FE005 AP004    15    50     0     0   -99   -99   -99 P4
+ 4 18361 FE005 AP004    15    50     0     0   -99   -99   -99 P4
+
+*RESIDUES AND ORGANIC FERTILIZER
+@R RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET RENAME
+ 1 16284   -99   -99   -99   -99   -99   -99   -99   -99 -99
+
+*TILLAGE AND ROTATIONS
+@T TDATE TIMPL  TDEP TNAME
+ 1 18221 TI007    15 24 days before planting
+ 1 18257 TI038    12 24 days before planting
+ 1 18313 TI011    15 24 days before planting
+ 2 18261 TI007    15 14 days before planting
+ 2 18264 TI011    15 14 days before planting
+ 2 18267 TI038    12 14 days before planting
+
+*HARVEST DETAILS
+@H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
+ 1   156 GS020     H     A   -99   -99 Elodie-P1
+ 2   156 GS020     H     A   -99   -99 El Beida-P1
+ 3   156 GS020     H     A   -99   -99 Constance-P1
+ 4   156 GS020     H     A   -99   -99 Red Sun-P1
+ 5   156 GS020     H     A   -99   -99 Red Valentine-P1
+ 6   156 GS020     H     A   -99   -99 Arizona-P1
+ 7   156 GS020     H     A   -99   -99 Arsenal-P1
+ 8   156 GS020     H     A   -99   -99 Rock-P1
+ 9   156 GS020     H     A   -99   -99 Fado-P1
+10   156 GS020     H     A   -99   -99 Sarpo Mira-P1
+11   156 GS020     H     A   -99   -99 Check-P1
+12   150 GS020     H     A   -99   -99 Elodie-P2
+13   150 GS020     H     A   -99   -99 El Beida-P2
+14   150 GS020     H     A   -99   -99 Constance-P2
+15   150 GS020     H     A   -99   -99 Red Sun-P2
+16   150 GS020     H     A   -99   -99 Red Valentine-P2
+17   150 GS020     H     A   -99   -99 Arizona-P2
+18   150 GS020     H     A   -99   -99 Arsenal-P2
+19   150 GS020     H     A   -99   -99 Rock-P2
+20   150 GS020     H     A   -99   -99 Fado-P2
+21   150 GS020     H     A   -99   -99 Sarpo Mira-P2
+22   150 GS020     H     A   -99   -99 Check-P2
+23   140 GS020     H     A   -99   -99 Elodie-P3
+24   140 GS020     H     A   -99   -99 El Beida-P3
+25   140 GS020     H     A   -99   -99 Constance-P3
+26   140 GS020     H     A   -99   -99 Red Sun-P3
+27   140 GS020     H     A   -99   -99 Red Valentine-P3
+28   140 GS020     H     A   -99   -99 Arizona-P3
+29   140 GS020     H     A   -99   -99 Arsenal-P3
+30   140 GS020     H     A   -99   -99 Rock-P3
+31   140 GS020     H     A   -99   -99 Fado-P3
+32   140 GS020     H     A   -99   -99 Sarpo Mira-P3
+33   140 GS020     H     A   -99   -99 Check-P3
+34   127 GS020     H     A   -99   -99 Elodie-P4
+35   127 GS020     H     A   -99   -99 El Beida-P4
+36   127 GS020     H     A   -99   -99 Constance-P4
+37   127 GS020     H     A   -99   -99 Red Sun-P4
+38   127 GS020     H     A   -99   -99 Red Valentine-P4
+39   127 GS020     H     A   -99   -99 Arizona-P4
+40   127 GS020     H     A   -99   -99 Arsenal-P4
+41   127 GS020     H     A   -99   -99 Rock-P4
+42   127 GS020     H     A   -99   -99 Fado-P4
+43   127 GS020     H     A   -99   -99 Sarpo Mira-P4
+44   127 GS020     H     A   -99   -99 Check-P4
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 2 GE              1     1     S 18261  2150 14 days before planting   PTSUB
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 2 OP              Y     Y     N     N     N     N     N     N     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 2 ME              M     M     E     R     S     L     R     1     G     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 2 MA              R     R     R     N     D
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 2 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 2 PL          16001 16001    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 2 IR             30    50   100 GS000 IR001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 2 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 2 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 2 HA              0 01001   100     0
+
+
+
