@@ -17,9 +17,9 @@
 !
 !             P/G/N:Phenology/Growth/Not used for calbration
 !
-@VAR#  VAR-NAME........ EXPNO   ECO#    G2    G3    PD    P2    TC
-!Coeffient #                             1     2     3     4     5
-!Calibration                             G     G     G     N     P
+@VAR#  VAR-NAME........ EXPNO   ECO#    G2    G3    PD    P2    TC    LALWR
+!Coeffient #                             1     2     3     4     5     6 
+!Calibration                             G     G     G     N     P     N
 
 999991 MINIMA               . DFAULT  900.  21.0   0.5   0.2  15.0
 999992 MAXIMA               . DFAULT 2100.  26.0   1.0   0.9  22.0
@@ -53,7 +53,7 @@ NEW001 Test                 . IB0001 2000.  21.0   0.2   0.3  18.0
 ! Round IV, A File very reduced, P2 fixed, Glue flag 1, 300000 runs, keeping Ritchie-ceres setting
 !GU0001 ELodie               . IB0001 901.9 25.99 0.785	0.200 18.36
 ! Finalized by sensitivity analysis, keeping Ritchie-ceres setting 
-GU0001 ELodie               . IB0001 902.7 25.97 0.816 0.200 15.00
+GU0001 ELodie               . IB0001 902.7 25.97 0.816 0.200 15.00 270.0
 ! Finalized by sensitivity analysis, keeping Suleiman-Ritchi setting  
 !GU0001 ELodie               . IB0001 1183. 25.61 0.775 0.200 16.00
 !GU0001 ELodie              . IB0001 939.4 25.98 0.654 0.200 18.00 
