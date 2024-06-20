@@ -115,8 +115,8 @@ GU0005 Red Valentine        . IB0001 1173. 25.52 0.953 0.200 18.00  270.0
 ! Round IV, A File very reduced, P2 fixed, Glue flag 1, 300000 runs, keeping Ritchie-ceres setting 
 !GU0006 Arizona              . IB0001 1669.0 21.04 0.524 0.200 18.10
 ! Finalized by sensitivity analysis, keeping Ritchie-ceres setting 
-!GU0006 Arizona              . IB0001 917.4 21.63 0.524 0.200 15.50 270.0
-GU0006 Arizona              . IB0001 917.4 21.63 0.524 0.200 15.50 322.0
+GU0006 Arizona              . IB0001 917.4 21.63 0.524 0.200 15.50 270.0
+!GU0006 Arizona              . IB0001 917.4 21.63 0.524 0.200 15.50 322.0
 
 ! Round II, A File reduced, P2 fixed, Glue flag 1, 100000 runs, keeping Ritchie-ceres setting 
 !GU0007 Arsenal              . IB0001 905.0 25.86 0.970 0.200 20.90
