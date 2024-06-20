@@ -1,0 +1,112 @@
+*EXP.DETAILS: GUDK1702PT GENO AND PLANTING TIME (MEHWISH CALIBRATION, 2017-18)FINAL  
+
+*FILES
+@N  EXP.DATA    AFILE        ADIR
+  2 EXP         GUDK1702.PTA C:\DSSAT48\POTATO\                                                              
+@N  SPECIES     SPFILE       SPDIR
+  2 SPE         PTSUB048.SPE C:\DSSAT48\GENOTYPE\                                                            
+@N  ECOTYPE     EFILE        EDIR
+  2 ECO         PTSUB048.ECO C:\DSSAT48\GENOTYPE\                                                            
+@N  CULTIVAR    CFILE        CDIR
+  2 CUL         PTSUB048.CUL C:\DSSAT48\GENOTYPE\                                                            
+@N  SOIL        SFILE        SDIR
+  2 SOIL        SOIL.SOL     C:\DSSAT48\SOIL\                                                                
+@N  WEATHER     WFILE        WDIR
+  2 WEATH       DKPK1701.WTH C:\DSSAT48\Weather\                                                             
+
+*SIMULATION CONTROL
+@N  GENERAL     NYERS NREPS START   SDATE RSEED SNAME.................... MODEL...
+  2 GE              1     1     S 2017261  2150 14 days before planting   PTSUB048
+@N  OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+  2 OP              Y     Y     N     N     N     N     N     N     M
+@N  METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT SOMDY MESEV MESOL METMP MEGHG
+  2 ME              M     M     E     R     S     C     R     1     G     R     2     D     0
+@N  MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+  2 MA              R     R     R     N     D
+@N  OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT  LONG CHOUT OPOUT
+  2 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N
+
+!AUTOMATIC MANAGEM
+@N  PLANTING      PFRST   PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+  2 PL              -99     -99   40.  100.   30.   40.   10.
+@N  IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+  2 IR            30.   50.  100. GS000 IR001  10.0 1.000
+@N  NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+  2 NI            30.   50.   25. FE001 GS000
+@N  RESIDUES    RIPCN RTIME RIDEP
+  2 RE           100.     1   20.
+@N  HARVEST     HFRST   HLAST HPCNP HRCNR
+  2 HA              0     -99  100.    0.
+
+*TREATMENTS
+@N   R O C TNAME....................  CU  FL  SA  IC  MP  MI  MF  MR  MC  MT  ME  MH  SM
+ 39  1 1 0 Arizona-P4                  6   1   0   2  39   4   4   0   0   2   0  39   2
+
+*CULTIVARS
+@C  CR INGENO CNAME
+  6 PT GU0006 Arizona         
+
+*FIELDS
+@L  ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX   SLDP ID_SOIL    PMALB  PMWD
+  1 GUDK1702 DKPK1701   0.0  -99. DR003  -99.  100.   -99 L      -99. GUPK160001-99.00 -99.0
+@L             XCRD            YCRD      ELEV              AREA  SLEN  FLWR  SLAS PRMGT
+  1       -99.00000       -99.00000    -99.00               1.0  100.   1.0 -99.0 FH201     1
+
+*INITIAL CONDITIONS
+@C  PCR     ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID
+  2 FA    2017261     0     0  1.00  1.00 -99.0     0  0.00  0.00  100.    0.
+@C   ICBL  SH2O  SNH4  SNO3
+  2    5. 0.174   0.1   0.8
+  2   15. 0.184   0.1   0.8
+  2   30. 0.199   0.1   0.8
+  2   45. 0.214   0.1   0.8
+  2   60. 0.214   0.1   0.8
+  2   80. 0.213   0.1   0.8
+  2  100. 0.213   0.1   0.8
+  2  150. 0.202   0.1   0.8
+  2  200. 0.202   0.1   0.8
+
+*PLANTING DETAILS
+@P    PDATE   EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL
+ 39 2017311 2017323   4.4   4.4     S     R   75.    0.  12.0  444.  -99. -99.0 -99.0   1.0
+
+*IRRIGATION
+@I   IEFF  IDEP  ITHR  IEPT  IOFF  IAME  IAMT
+  4 1.000   30.   50.  100. GS000 IR001  10.0
+@I    IDATE  IROP IRVAL
+  4 2017275 IR001  40.0
+  4 2017283 IR001 100.0
+  4 2017287 IR001  40.0
+  4 2017299 IR001  40.0
+  4 2017311 IR001 150.0
+  4 2017326 IR001  40.0
+  4 2017334 IR001 150.0
+  4 2017346 IR001  18.0
+  4 2017353 IR001  40.0
+
+*FERTILIZERS
+@F    FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD
+  4 2017311 FE018 AP004   15.    0.    0.  100.  -99.  -99.   -99
+  4 2017311 FE013 AP004   15.    0.  100.    0.  -99.  -99.   -99
+  4 2017311 FE005 AP004   15.   50.    0.    0.  -99.  -99.   -99
+  4 2017341 FE005 AP004   15.   50.    0.    0.  -99.  -99.   -99
+  4 2017361 FE005 AP004   15.   50.    0.    0.  -99.  -99.   -99
+
+*RESIDUES
+@R    RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET
+
+*CHEMICALS
+@C    CDATE CHCOD CHAMT  CHME CHDEP   CHT
+
+*TILLAGE
+@T    TDATE TIMPL  TDEP
+  2 2017261 TI007  15.0
+  2 2017264 TI011  15.0
+  2 2017267 TI038  12.0
+
+*ENVIRONMENT
+@E    ODATE  EDAY  ERAD  EMAX  EMIN ERAIN  ECO2  EDEW EWIND
+
+*HARVEST
+@H    HDATE  HSTG  HCOM HSIZE   HPC  HBPC
+ 39     127 GS020     H     A  100.    0.

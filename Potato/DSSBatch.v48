@@ -1,0 +1,14 @@
+$BATCH(POTATO)
+!
+! Directory    : C:\DSSAT48\POTATO
+! Command Line : C:\DSSAT48\DSCSM048.EXE PTSUB048 B DSSBatch.v48
+! Crop         : Potato          
+! Experiment   : GUDK1702.PTX
+! ExpNo        : 6
+! Debug        : C:\DSSAT48\DSCSM048.EXE PTSUB048 " B DSSBatch.v48"
+!
+@FILEX                                                                                        TRTNO     RP     SQ     OP     CO
+C:\DSSAT48\POTATO\GUDK1702.PTX                                                                    6      1      0      1      0
+C:\DSSAT48\POTATO\GUDK1702.PTX                                                                   17      1      0      1      0
+C:\DSSAT48\POTATO\GUDK1702.PTX                                                                   28      1      0      1      0
+C:\DSSAT48\POTATO\GUDK1702.PTX                                                                   39      1      0      1      0
