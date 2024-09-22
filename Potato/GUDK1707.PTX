@@ -1,4 +1,4 @@
-*EXP.DETAILS: GUDK1707PT GENO AND PLANTING TIME (CALIBRATION, 2017-18)THIAGO
+*EXP.DETAILS: PT GENO AND PLANTING TIME (CALIBRATION, 2017-18)
 
 *GENERAL
 @PEOPLE
@@ -8,12 +8,9 @@ Department of Horticulture, Gomal University, Pakistan
 @SITE
 Dera Ismail Khan, Pakistan
 @NOTES
-Maturity date is taken from the actual date of harvest
-T1 = 156 DAP
-T2 = 150 DAP
-T3 = 140 DAP
-T4 = 127 DAP
-For Thiago's GLUE paper
+
+
+
 
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
